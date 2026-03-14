@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "pyflowdiagnostics" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9203176dad75046e3a5b5ae48aa1f59cf81d1d0282556c48ab3a1c414ac8e77a
+  sha256: 80c909f5e6f369ae1a13c2d5d04dedb2d6676f6fdb6c5809e2938934aca30869
 
 build:
   noarch: python
